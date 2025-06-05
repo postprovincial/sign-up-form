@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "Norse-Bold";
+    src: url(../Norse-Bold.otf) format("opentype");
+}
+
+h1{
+    font-family:'Norse-Bold';
+    font-size: 500%;
+}
+
+.container{
+    margin: 0;
+    padding: 0;
+ /*   display: flex;
+   flex-direction: row;*/
+}
+
