@@ -9,44 +9,64 @@
 </head>
 <body>
     <div class="container">
-        <h1>ODIN</h1>
-        <p>
-            This is not a real online service!
-            You know you need something like this in your real life to help you realize your deepest dreams.
-            Sign up now to get started.
-            <br>
-            <br>
-            You know you want to.
-        </p>
-        <p>
-            Let's do this!
-        </p>
+        <div class="splash">
+            <div class = "logo">
+                <img src="./assets/odin-lined.png" alt="">
+                <h1>ODIN</h1>
+            </div>
+            <div class = "splash-text">
+                <p>Photo by <span style="text-decoration: underline;">Halie West</span> on <span style="text-decoration: underline;">Unsplash</span></p>
+            </div>    
+        </div>
+        <div class ="formbox">
+            <div class="text-div">
+                <p>
+                    This is not a real online service!
+                    You know you need something like this in your real life to help you realize your deepest dreams.
+                    <br>
+                    Sign up now to get started.
+                    <br>
+                    <br>
+                    You <i>know</i> you want to.
+                </p>
+            </div>
+            <div class ="form-div">
+                <p>
+                    Let's do this!
+                </p>
 
-        <form action="" method="get" class="sign-up-form">
-            <label for="first-name">First Name</label>
-            <input id="first-name" name="first-name" type="text"/>
+                <form action="" method="get" class="name-form">
+                    <label for="first-name">First Name</label>
+                    <input id="first-name" name="first-name" type="text"/>
 
-            <label for="last-name">Last Name</label>
-            <input id="last-name" name="last-name" type="text"/>
+                    <label for="last-name">Last Name</label>
+                    <input id="last-name" name="last-name" type="text"/>
+                </form>
+                <form action="" method="get" class="email-phone-form">
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="text">
 
-            <label for="email">Email</label>
-            <input id="email" name="email" type="text">
+                    <label for="phonenumber">Phone Number</label>
+                    <input type="tel" name="phonenumber" id="phonenumber">
+                </form>
+                <form action="" method="get" class="password-form">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password">
 
-            <label for="phonenumber">Phonenumber</label>
-            <input type="tel" name="phonenumber" id="phonenumber">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" name="confirm-password" id="confirm-password">
+                </form>
+            </div>
+            <div class = "buttons-div">
+                <form action="" method="get" class="submit-button">
+                    <button type="submit">Create Account</button>
+                </form>
 
-            <label for="password">Password</label>
-            <input type="password" name="password" id="password">
-
-            <label for="confirm-password">Confirm Password</label>
-            <input type="password" name="confirm-password" id="confirm-password">
-
-            <button type="submit">Create Account</button>
-        </form>
-
-        <p>
-            Already have an account? Log in
-        </p>
+                <p>
+                    Already have an account? Log in
+                </p>
+            </div>
+        </div>
     </div>
 </body>
 </html>
